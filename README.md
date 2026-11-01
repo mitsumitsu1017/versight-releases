@@ -12,7 +12,7 @@ OBS を使えば、試合ごとのリプレイ動画を戦績と並べて見返�
 ## 必要なもの
 
 - Windows 10 / 11
-- Google Chrome（Capcom ID へのログインに使います）
+- Google Chrome か Microsoft Edge（Capcom ID へのログインに使います。Chrome がなければ Edge を使います）
 - リプレイ動画を使う場合だけ: OBS Studio
 
 ## はじめかた
