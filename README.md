@@ -1,29 +1,21 @@
 # Versight
 
-スト6 の戦績（Buckler's Boot Camp の対戦履歴）を自動で取り込んで、勝率・MR の推移・対キャラ・時間帯・調子などを分析する Windows 用のアプリです。
-OBS を使えば、試合ごとのリプレイ動画を戦績と並べて見返すこともできます。
+**Versight は、配布を終了しました。**
 
-作った人: みつや（X: [@mikakoyamaguchi](https://x.com/mikakoyamaguchi)）
+スト6 の公式サイト（Buckler’s Boot Camp）から、ツールによるデータの自動取得を控えるよう、お知らせが出ています。
+https://www.streetfighter.com/6/buckler/ja-jp/information/detail/data-access202611
 
-## ダウンロード
+Versight もこれにあたります。お手数ですが、利用をやめて、PC から削除してください。
 
-[最新版のページ](https://github.com/mitsumitsu1017/versight-releases/releases/latest) の「Assets」から `Versight-v<版>.zip` をダウンロードしてください。
+## 止め方
 
-## 必要なもの
+1. 「設定」→「起動」の「Windows にサインインしたら自動で起動する」のチェックを外す
+2. 「設定」→「データ」に出ている保存場所を確認しておく（ふつうは `C:\Users\（ユーザー名）\AppData\Local\Versight`）
+3. 「設定」→「Versight を終了する」
+4. Versight のフォルダ（`Versight.exe` が入っているフォルダ）を削除する
+5. 2 で確認した保存場所のフォルダを削除する（戦績・動画・ログイン情報が入っています）
 
-- Windows 10 / 11
-- Google Chrome か Microsoft Edge（Capcom ID へのログインに使います。Chrome がなければ Edge を使います）
-- リプレイ動画を使う場合だけ: OBS Studio
+試合ごとの動画を残したい場合は、5 の前に、動画（mp4）を別の場所に移してください。
+動画の保存場所を変えていた場合は、そのフォルダも、不要になったら削除してください。
 
-## はじめかた
-
-1. zip を好きな場所に展開する
-2. 展開したフォルダの中の `Versight.exe` をダブルクリックする
-3. ブラウザに開いた画面の「ログインする」から、Capcom ID でログインする
-
-詳しくは zip の中の「はじめにお読みください.txt」を見てください。
-
-## 注意
-
-- CAPCOM の公式アプリではありません。個人が趣味で作った非公式のツールです。
-- 無料です。販売や再配布はしないでください。
+使ってくださった皆さま、本当にありがとうございました。
